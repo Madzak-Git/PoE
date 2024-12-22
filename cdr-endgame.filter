@@ -927,7 +927,6 @@ Hide # $type->uncut->skill $level->18
 	SetBorderColor 30 190 190 255
 	PlayAlertSound 2 300
 	PlayEffect White
-	MinimapIcon 1 White Triangle
 
 Hide # $type->uncut->skill $level->17
 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
@@ -938,7 +937,6 @@ Hide # $type->uncut->skill $level->17
 	SetBorderColor 30 190 190 255
 	PlayAlertSound 2 300
 	PlayEffect White
-	MinimapIcon 1 White Triangle
 
 Hide # $type->uncut->skill $level->16
 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
@@ -949,7 +947,6 @@ Hide # $type->uncut->skill $level->16
 	SetBorderColor 30 190 190 255
 	PlayAlertSound 2 300
 	PlayEffect White
-	MinimapIcon 1 White Triangle
 
 Hide # $type->uncut->skill $level->15
 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
@@ -960,7 +957,6 @@ Hide # $type->uncut->skill $level->15
 	SetBorderColor 30 190 190 255
 	PlayAlertSound 2 300
 	PlayEffect White
-	MinimapIcon 1 White Triangle
 
 Hide # uncutgem any skill spirit
 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
