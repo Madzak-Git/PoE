@@ -1805,17 +1805,6 @@ Show # %HS3 $type->currency->distilled $tier->t5
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
 
-# Show # %HS3 $type->currency->distilled $tier->t6
-	# Class == "Stackable Currency"
-	# BaseType == 
-	# SetFontSize 45
-	# SetTextColor 0 0 0 255
-	# SetBorderColor 0 0 0 255
-	# SetBackgroundColor 210 178 135 255
-	# PlayAlertSound 2 300
-	# PlayEffect Grey
-	# MinimapIcon 2 Grey Circle
-
 Show # %HS2 $type->currency->distilled $tier->t7
 	Class == "Stackable Currency"
 	BaseType == "Distilled Greed"
@@ -2168,7 +2157,7 @@ Show # %D6 $type->currency->stackedsplintershigh $tier->10
 	SetBackgroundColor 240 90 35 255
 	PlayAlertSound 2 300
 	PlayEffect Yellow
-	MinimapIcon 1 Yellow Kite
+	MinimapIcon 1 Yellow Circle
 
 Show # %DS5 $type->currency->stackedsplintershigh $tier->5
 	StackSize >= 5
@@ -2180,7 +2169,7 @@ Show # %DS5 $type->currency->stackedsplintershigh $tier->5
 	SetBackgroundColor 249 150 25 255
 	PlayAlertSound 2 300
 	PlayEffect Purple
-	MinimapIcon 2 Purple Kite
+	MinimapIcon 1 Yellow Circle
 
 Show # %DS4 $type->currency->stackedsplintershigh $tier->2
 	StackSize >= 2
@@ -2192,7 +2181,7 @@ Show # %DS4 $type->currency->stackedsplintershigh $tier->2
 	SetBackgroundColor 249 150 25 255
 	PlayAlertSound 2 300
 	PlayEffect White
-	MinimapIcon 2 Purple Kite
+	MinimapIcon 1 Yellow Circle
 	
 #------------------------------------
 #   [3802] Splinters - single
@@ -2215,6 +2204,7 @@ Show # %HS3 $type->currency->splinter $tier->t2
 	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBackgroundColor 65 20 80
+	MinimapIcon 1 Yellow Circle
 	
 #===============================================================================================================
 # [[4000]] Remaining Currency
