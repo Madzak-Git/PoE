@@ -1395,7 +1395,7 @@ Show # $type->waystones $tier->waystones_a_t14
 	# MinimapIcon 2 White Square
 
 Hide # $type->waystones $tier->lowtier
-	WaystoneTier <= 12
+	WaystoneTier <= 14
 	Class == "Waystones"
 	SetFontSize 40
 	SetTextColor 255 255 255 255
