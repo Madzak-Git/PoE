@@ -1253,15 +1253,15 @@ Show # $type->waystones $tier->waystones_a_t14
 	PlayEffect Yellow
 	MinimapIcon 1 Red Square
 
-Show # %H5 $type->waystones $tier->waystones_b_t13
-	WaystoneTier 13
-	Class == "Waystones"
-	SetFontSize 45
-	SetTextColor 0 0 0 255
-	SetBackgroundColor 200 200 200 255
-	PlayAlertSound 5 300
-	PlayEffect Yellow
-	MinimapIcon 1 Red Square
+# Show # %H5 $type->waystones $tier->waystones_b_t13
+	# WaystoneTier 13
+	# Class == "Waystones"
+	# SetFontSize 45
+	# SetTextColor 0 0 0 255
+	# SetBackgroundColor 200 200 200 255
+	# PlayAlertSound 5 300
+	# PlayEffect Yellow
+	# MinimapIcon 1 Red Square
 
 # Show # %H5 $type->waystones $tier->waystones_b_t12
 	# WaystoneTier 12
