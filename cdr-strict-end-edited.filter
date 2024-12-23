@@ -1655,7 +1655,7 @@ Show # $type->currency->stacked $tier->t4
 	MinimapIcon 2 White Circle
 
 Show #  $type->currency->stacked $tier->t5
-	StackSize >= 2
+	StackSize >= 10
 	Class == "Stackable Currency"
 	BaseType == "Scroll of Wisdom" "Transmutation Shard"
 	SetFontSize 36
@@ -1785,7 +1785,7 @@ Show # $type->currency->distilled $tier->t1
 
 Show # $type->currency->distilled $tier->t2
 	Class == "Stackable Currency"
-	BaseType ==  "Distilled Disgust" "Distilled Despair" "Distilled Ire" 
+	BaseType ==  "Distilled Disgust" "Distilled Despair" 
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
@@ -1807,7 +1807,7 @@ Show # %HS3 $type->currency->distilled $tier->t5
 
 Show # %HS2 $type->currency->distilled $tier->t7
 	Class == "Stackable Currency"
-	BaseType == "Distilled Greed"
+	BaseType == "Distilled Greed" "Distilled Ire" 
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
