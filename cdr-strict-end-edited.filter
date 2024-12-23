@@ -348,7 +348,7 @@ Show #T1 2H Weapons
 Show #T1 Caster Weapons
 	Mirrored False
 	Corrupted False
-	ItemLevel >= 82
+	ItemLevel >= 81
 	Rarity Normal Magic Rare
 	BaseType == "Attuned Wand" "Siphoning Wand"
 	SetFontSize 40
