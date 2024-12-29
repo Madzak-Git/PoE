@@ -2026,7 +2026,7 @@ Show # $type->keys $tier->restex
 
 Show # %HS3 $type->currency->catalyst $tier->t5
 	Class == "Stackable Currency"
-	BaseType == "Neural Catalyst" "Xoph's Catalyst" "Tul's Catalyst" "Esh's Catalyst" "Reaver Catalyst" "Chayula's Catalyst"
+	BaseType == "Neural Catalyst" 
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2045,7 +2045,7 @@ Show # %HS3 $type->currency->catalyst $tier->t5
 
 Hide # %HS2 $type->currency->catalyst $tier->t7
 	Class == "Stackable Currency"
-	BaseType == "Flesh Catalyst" "Carapace Catalyst" "Adaptive Catalyst" "Sibilant Catalyst" "Skittering Catalyst"
+	BaseType == "Flesh Catalyst" "Carapace Catalyst" "Adaptive Catalyst" "Sibilant Catalyst" "Skittering Catalyst" "Xoph's Catalyst" "Tul's Catalyst" "Esh's Catalyst" "Reaver Catalyst" "Chayula's Catalyst"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
