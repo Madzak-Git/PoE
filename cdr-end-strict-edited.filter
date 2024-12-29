@@ -359,16 +359,16 @@ Show #T1 Jewellery
 	# BaseType == "Expert Shortbow" "Expert Cultist Bow" "Regalia Longsword" "Ultra Greatsword" "Vile Greataxe" "Expert Temple Maul" "Expert Oak Greathammer" "Expert Cultist Greathammer" "Expert Crumbling Maul" "Expert Leaden Greathammer" "Expert Crescent Quarterstaff" "Expert Long Quarterstaff" "Expert Crackling Quarterstaff" "Expert Dyad Crossbow"
 	# SetBorderColor 255 125 0 160
 
-# Show #T1 Wands/Staves
-# 	Mirrored False
-# 	Corrupted False
-# 	ItemLevel >= 81
-# 	Rarity Normal Magic
-# 	BaseType == "Chiming Staff" "Attuned Wand" "Siphoning Wand"
-# 	SetFontSize 40
-# 	SetBorderColor 255 125 0 160
-# 	PlayEffect Blue
-# 	MinimapIcon 0 Blue Diamond
+Show #T1 Wands/Staves
+ 	Mirrored False
+ 	Corrupted False
+ 	ItemLevel >= 81
+ 	Rarity Normal Magic
+ 	BaseType == "Attuned Wand" "Siphoning Wand"
+ 	SetFontSize 40
+ 	SetBorderColor 255 125 0 160
+ 	PlayEffect Blue
+ 	MinimapIcon 0 Blue Diamond
 
 # Show # T2
 # 	Mirrored False
