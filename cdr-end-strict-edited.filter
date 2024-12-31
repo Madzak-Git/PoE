@@ -1904,7 +1904,7 @@ Show # $type->currency->distilled $tier->t2
 Show # %HS5 $type->currency->distilled $tier->t3
 	Class == "Stackable Currency"
 	BaseType == "Distilled Paranoia" "Distilled Envy" "Distilled Greed" "Distilled Disgust"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 240 90 35 255
@@ -1926,7 +1926,7 @@ Show # %HS5 $type->currency->distilled $tier->t3
 Show # %HS3 $type->currency->distilled $tier->t5
 	Class == "Stackable Currency"
 	BaseType == "Distilled Ire" "Distilled Guilt"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
@@ -2137,7 +2137,7 @@ Show # $type->currency->catalyst $tier->restex
 Show # $type->currency->essence $tier->t1
 	Class == "Stackable Currency"
 	BaseType == "Greater Essence of Haste" "Greater Essence of Torment"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 255 0 0 255
 	SetBorderColor 255 0 0 255
 	SetBackgroundColor 255 255 255 255
@@ -2148,7 +2148,7 @@ Show # $type->currency->essence $tier->t1
 Show # $type->currency->essence $tier->t2
 	Class == "Stackable Currency"
 	BaseType ==  "Greater Essence of Ruin" "Greater Essence of Sorcery"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
@@ -2159,7 +2159,7 @@ Show # $type->currency->essence $tier->t2
 Show # %HS5 $type->currency->essence $tier->t3
 	Class == "Stackable Currency"
 	BaseType == "Greater Essence of the Body" "Greater Essence of the Mind" "Greater Essence of Enhancement" "Greater Essence of the Infinite" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Electricity" "Greater Essence of Battle"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 240 90 35 255
@@ -2170,7 +2170,7 @@ Show # %HS5 $type->currency->essence $tier->t3
 Show # %HS4 $type->currency->essence$tier->t4
 	Class == "Stackable Currency"
 	BaseType == "Essence of Torment" "Essence of Haste"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
@@ -2181,7 +2181,7 @@ Show # %HS4 $type->currency->essence$tier->t4
 Show # %HS3 $type->currency->catalyst $tier->t5
 	Class == "Stackable Currency"
 	BaseType == "Essence of Electricity" "Essence of Battle" "Essence of Sorcery" "Essence of Ruin" "Essence of Enhancement" "Essence of Flames" "Essence of Ice" "Essence of the Body" "Essence of the Mind" "Essence of the Infinite" 
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 213 159 0 255
@@ -2327,7 +2327,7 @@ Show # %DS5 $type->currency->stackedsplintershigh $tier->5
 	StackSize >= 5
 	Class == "Stackable Currency"
 	BaseType == "Breach Splinter" "Simulacrum Splinter"
-	SetFontSize 45
+	SetFontSize 40
 	SetTextColor 0 0 0 255
 	SetBorderColor 210 20 210 255
 	SetBackgroundColor 249 150 25 255
