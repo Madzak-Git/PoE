@@ -1002,12 +1002,12 @@ Hide # $type->uncutgem $level->19
 # 	PlayEffect White
 # 	MinimapIcon 1 White Triangle
 
-Hide # uncutgem any skill spirit
+Show # uncutgem any skill spirit
 	BaseType == "Uncut Skill Gem" "Uncut Spirit Gem"
 	SetFontSize 30
 	DisableDropSound True
 	
-Hide # uncutgem any support
+Show # uncutgem any support
 	BaseType == "Uncut Support Gem"
 	SetFontSize 30
 	DisableDropSound True
