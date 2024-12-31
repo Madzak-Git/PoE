@@ -2083,9 +2083,9 @@ Hide # %HS3 $type->currency->catalyst $tier->t5
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
-	PlayAlertSound 2 300
-	PlayEffect Grey
-	MinimapIcon 2 Grey Circle
+	#PlayAlertSound 2 300
+	#PlayEffect Grey
+	#MinimapIcon 2 Grey Circle
 
 Hide # %HS3 $type->currency->catalyst $tier->t6
 	Class == "Stackable Currency"
@@ -2094,8 +2094,8 @@ Hide # %HS3 $type->currency->catalyst $tier->t6
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
-	PlayEffect Grey
-	MinimapIcon 2 Grey Circle
+	#PlayEffect Grey
+	#MinimapIcon 2 Grey Circle
 
 Hide # %HS2 $type->currency->catalyst $tier->t7
 	Class == "Stackable Currency"
