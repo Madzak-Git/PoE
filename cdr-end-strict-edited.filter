@@ -106,7 +106,7 @@ Show # %D6 $type->exoticbaseslower $tier->exoticbreachring
 	Corrupted False
 	Rarity Normal Magic Rare
 	BaseType == "Breach Ring"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 20 20 0 255
@@ -1131,7 +1131,7 @@ Show # %D6 $type->waystones->enchanted $tier->t1
 	SetBackgroundColor 220 200 225 255
 	PlayEffect Purple
 	MinimapIcon 0 Purple Square
-	PlayAlertSound 5 300
+	PlayAlertSound 4 300
 
 Show # %D5 $type->waystones->enchanted $tier->any
 	AnyEnchantment True
@@ -1328,7 +1328,7 @@ Show # $type->waystones $tier->waystones_a_t16
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBackgroundColor 235 235 235 255
-	PlayAlertSound 5 300
+	PlayAlertSound 4 300
 	PlayEffect Red
 	MinimapIcon 0 Red Square
 
@@ -1787,7 +1787,7 @@ Show # $type->currency $tier->t1perfectjeweller
 Show # $type->currency $tier->t2divine
 	Class == "Stackable Currency"
 	BaseType == "Greater Jeweller's Orb"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 240 90 35 255
@@ -1798,7 +1798,7 @@ Show # $type->currency $tier->t2divine
 Show # $type->currency $tier->t3annul
 	Class == "Stackable Currency"
 	BaseType == "Orb of Annulment" "Orb of Chance"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 240 90 35 255
@@ -1825,7 +1825,7 @@ Show # %HS4 $type->currency $tier->t5glassblower
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 213 159 0 255
 	PlayEffect White
-	MinimapIcon 2 White Circle
+	MinimapIcon 2 Yellow Circle
 
 Show # %HS3 $type->currency $tier->t6artificer
 	Class == "Stackable Currency"
@@ -2369,7 +2369,7 @@ Show # %HS3 $type->currency->splinter $tier->t2
 	SetTextColor 255 255 255 255
 	SetBackgroundColor 65 20 80
 	PlayEffect Grey Temp
-	MinimapIcon 2 Grey Kite
+	MinimapIcon 2 Yellow Kite
 	
 #===============================================================================================================
 # [[4000]] Remaining Currency
