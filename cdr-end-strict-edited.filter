@@ -2333,7 +2333,7 @@ Show # %DS5 $type->currency->stackedsplintershigh $tier->5
 	SetBackgroundColor 65 20 80
 	PlayAlertSound 2 300
 	PlayEffect Purple
-	MinimapIcon 1 Yellow Kite
+	MinimapIcon 1 Purple Kite
 
 Show # %DS4 $type->currency->stackedsplintershigh $tier->2
 	StackSize >= 2
@@ -2357,7 +2357,7 @@ Show # %DS4 $type->currency->stackedsplintershigh $tier->2
 	SetBackgroundColor 65 20 80
 	PlayAlertSound 2 300
 	PlayEffect White
-	MinimapIcon 1 Yellow Kite
+	MinimapIcon 2 Purple Kite
 	
 #------------------------------------
 #   [3802] Splinters - single
@@ -2381,7 +2381,7 @@ Show # %HS3 $type->currency->splinter $tier->t2
 	SetTextColor 255 255 255 255
 	SetBackgroundColor 65 20 80
 	PlayEffect Grey Temp
-	MinimapIcon 2 Yellow Kite
+	MinimapIcon 2 Purple Kite
 	
 #===============================================================================================================
 # [[4000]] Remaining Currency
