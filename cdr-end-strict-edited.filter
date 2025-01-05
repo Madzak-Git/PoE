@@ -1118,20 +1118,20 @@ Show # $type->waystones->corruptedspecial $tier->mod8
 	SetBorderColor 255 128 0 255
 	SetBackgroundColor 235 235 235 255
 	PlayEffect Red
-	MinimapIcon 0 Red Pentagon
+	MinimapIcon 2 Red Pentagon
 	PlayAlertSound 1 300
 
-Show # %D6 $type->waystones->enchanted $tier->t1
-	AnyEnchantment True
-	WaystoneTier >= 14
-	Class == "Waystones"
-	SetFontSize 35
-	SetTextColor 27 27 27 255
-	SetBorderColor 66 66 66 255
-	SetBackgroundColor 220 200 225 255
-	PlayEffect Purple
-	MinimapIcon 0 Purple Square
-	PlayAlertSound 4 300
+#Show # %D6 $type->waystones->enchanted $tier->t1
+#	AnyEnchantment True
+#	WaystoneTier >= 14
+#	Class == "Waystones"
+#	SetFontSize 35
+#	SetTextColor 27 27 27 255
+#	SetBorderColor 66 66 66 255
+#	SetBackgroundColor 220 200 225 255
+#	PlayEffect Purple
+#	MinimapIcon 2 Purple Square
+#	PlayAlertSound 4 300
 
 Show # %D5 $type->waystones->enchanted $tier->any
 	AnyEnchantment True
@@ -1142,7 +1142,7 @@ Show # %D5 $type->waystones->enchanted $tier->any
 	SetBorderColor 117 117 117 255
 	SetBackgroundColor 220 200 225 255
 	PlayEffect Purple
-	MinimapIcon 0 Purple Square
+	MinimapIcon 2 Purple Square
 	PlayAlertSound 1 300
 
 #===============================================================================================================
@@ -1330,7 +1330,7 @@ Show # $type->waystones $tier->waystones_a_t16
 	SetBackgroundColor 235 235 235 255
 	PlayAlertSound 4 300
 	PlayEffect Red
-	MinimapIcon 0 Red Square
+	MinimapIcon 1 Red Square
 
 Show # $type->waystones $tier->waystones_a_t15
 	WaystoneTier 15
@@ -1340,7 +1340,7 @@ Show # $type->waystones $tier->waystones_a_t15
 	SetBackgroundColor 235 235 235 255
 	PlayAlertSound 4 300
 	PlayEffect Yellow
-	MinimapIcon 1 Red Square
+	MinimapIcon 2 Red Square
 
 # Show # $type->waystones $tier->waystones_a_t14
 # 	WaystoneTier 14
