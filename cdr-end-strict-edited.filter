@@ -365,7 +365,7 @@ Show #T1 Wands/Staves
  	Corrupted False
  	ItemLevel >= 81
  	Rarity Normal Magic
- 	BaseType == "Chiming Staff" "Attuned Wand" "Siphoning Wand"
+ 	BaseType == "Attuned Wand" "Siphoning Wand"
  	SetFontSize 40
 	SetBorderColor 255 125 0 160
  	PlayEffect Blue
@@ -2315,7 +2315,7 @@ Show # %D6 $type->currency->stackedsplintershigh $tier->10
 	StackSize >= 10
 	Class == "Stackable Currency"
 	BaseType == "Breach Splinter" "Simulacrum Splinter"
-	SetFontSize 45
+	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBorderColor 210 20 210 255
 	SetBackgroundColor 65 20 80
