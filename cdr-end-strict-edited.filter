@@ -518,6 +518,9 @@ Show # %D1 $type->chancing $tier->hh
 	SetFontSize 40
 	SetTextColor 255 255 255 255
 	SetBorderColor 0 150 0 255
+	PlayEffect Purple
+	MinimapIcon 2 Green Square
+	PlayAlertSound 1 300
 
 #------------------------------------
 #   [1309] Salvage
@@ -1121,29 +1124,31 @@ Show # $type->waystones->corruptedspecial $tier->mod8
 	MinimapIcon 2 Red Pentagon
 	PlayAlertSound 1 300
 
-#Show # %D6 $type->waystones->enchanted $tier->t1
-#	AnyEnchantment True
-#	WaystoneTier >= 14
-#	Class == "Waystones"
-#	SetFontSize 35
-#	SetTextColor 27 27 27 255
-#	SetBorderColor 66 66 66 255
-#	SetBackgroundColor 220 200 225 255
-#	PlayEffect Purple
-#	MinimapIcon 2 Purple Square
-#	PlayAlertSound 4 300
+Show # %D6 $type->waystones->enchanted $tier->t1
+	AnyEnchantment True
+	WaystoneTier >= 14
+	Class == "Waystones"
+	SetFontSize 35
+	SetTextColor 0 0 0 255
+	SetBorderColor 220 50 0 255
+	SetBackgroundColor 175 120 230 240
+	#SetTextColor 27 27 27 255
+	#SetBorderColor 66 66 66 255
+	#SetBackgroundColor 220 200 225 255
+	PlayEffect Purple
+	MinimapIcon 2 Purple Square
+	PlayAlertSound 4 300
 
 Show # %D5 $type->waystones->enchanted $tier->any
 	AnyEnchantment True
 	WaystoneTier >= 11
 	Class == "Waystones"
 	SetFontSize 35
-	SetTextColor 131 131 131 255
+	SetTextColor 0 0 0 255
 	SetBorderColor 117 117 117 255
-	SetBackgroundColor 220 200 225 255
-	PlayEffect Purple
-	MinimapIcon 2 Purple Square
-	PlayAlertSound 1 300
+	SetBackgroundColor 175 120 230 240
+	#SetBackgroundColor 220 200 225 255
+	
 
 #===============================================================================================================
 # [[3100]] Normal Waystones
@@ -1819,7 +1824,7 @@ Show # $type->currency $tier->t4exalt
 
 Show # %HS4 $type->currency $tier->t5glassblower
 	Class == "Stackable Currency"
-	BaseType == "Glassblower's Bauble" "Orb of Alchemy" "Vaal Orb" "Armourer's Scrap" "Chance Shard"  "Artificer's Orb" "Regal Orb"
+	BaseType == "Glassblower's Bauble" "Orb of Alchemy" "Vaal Orb" "Armourer's Scrap" "Chance Shard"  
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -1827,19 +1832,19 @@ Show # %HS4 $type->currency $tier->t5glassblower
 	PlayEffect White
 	MinimapIcon 2 Yellow Circle
 
-Show # %HS3 $type->currency $tier->t6artificer
+Hide # %HS3 $type->currency $tier->t6artificer
 	Class == "Stackable Currency"
 	BaseType == "Black Scythe Artifact" "Sun Artifact" "Arcanist's Etcher" "Broken Circle Artifact" "Blacksmith's Whetstone" "Order Artifact"
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
-	PlayEffect Grey
-	MinimapIcon 2 Grey Circle
+	#PlayEffect Grey
+	#MinimapIcon 2 Grey Circle
 
 Hide # %HS2 $type->currency $tier->t7whetstone
 	Class == "Stackable Currency"
-	BaseType == "Lesser Jeweller's Orb" 
+	BaseType == "Lesser Jeweller's Orb" "Artificer's Orb" "Regal Orb"
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2374,7 +2379,7 @@ Show # %HS4 $type->currency->splinter $tier->t1
 	PlayEffect Purple Temp
 	MinimapIcon 2 Purple Kite
 
-Show # %HS3 $type->currency->splinter $tier->t2
+Hide # %HS3 $type->currency->splinter $tier->t2
 	Class == "Stackable Currency"
 	BaseType == "Breach Splinter"
 	SetFontSize 35
