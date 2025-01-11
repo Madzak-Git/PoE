@@ -2385,8 +2385,8 @@ Hide # %HS3 $type->currency->splinter $tier->t2
 	SetFontSize 35
 	SetTextColor 255 255 255 255
 	SetBackgroundColor 65 20 80
-	PlayEffect Grey Temp
-	MinimapIcon 2 Purple Kite
+	#PlayEffect Grey Temp
+	#MinimapIcon 2 Purple Kite
 	
 #===============================================================================================================
 # [[4000]] Remaining Currency
